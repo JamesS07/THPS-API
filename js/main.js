@@ -8,14 +8,15 @@ function getSkater(){
     let skaters = document.querySelector('input').value
 
 
-fetch(`https://thps-bdf7deda80e6.herokuapp.com/api/[${skaters}]`)
+fetch(`https://thps-bdf7deda80e6.herokuapp.com/api/${skaters}`)
 .then(res => res.json())
 .then(data => {
     console.log(data)
     document.querySelector('.name').innerText = data.name
     document.querySelector('.age').innerText = data.age
+    document.querySelector('.specialTrick').innerText = data.specialTrick
     document.querySelector('.born').innerText = data.birthLocation
-    document.querySelector('.price').innerText = data[0].price
+    document.querySelector('.stance').innerText = data.stance
 
 })
 .catch(err => {
