@@ -9,25 +9,61 @@ const skaters = {
     'tony hawk':{
         'age': 55,
         'specialTrick':'The 900',
-        'birthLocation': 'California',
+        'birthLocation': 'San Diego, California',
         'stance': 'Goofy'
+    },
+    'bob burnquist': {
+        'age': 46,
+        'specialTrick': 'Burntwist',
+        'birthLocation': 'Rio de Janeiro, Brazil',
+        'stance': 'Regular' 
+    },
+    'kareem campbell':{
+        'age': 49,
+        'specialTrick': '50 Board Variable',
+        'birthLocation': 'Harlem, New York',
+        'stance': 'Regular' 
+    },
+    'rune glifberg':{
+        'age': 48,
+        'specialTrick': 'Kickflip McTwist',
+        'birthLocation': 'Copenhagen, Denmark',
+        'stance': 'Regular'
     },
     'andrew reynolds':{
         'age': 45,
-        'specialTrick':'Frontside Flip',
-        'birthLocation': 'Florida',
+        'specialTrick':'Heelflip to Buntside',
+        'birthLocation': 'Lakeland, Florida',
         'stance': 'Regular' 
+    },
+    'bucky lasek':{
+        'age': 50,
+        'specialTrick': 'Fingerflip Airwalk',
+        'birthLocation': 'Baltimore, Maryland',
+        'stance': 'Regular'
+    },
+    'elissa steamer':{
+        'age': 47,
+        'specialTrick': 'Judo Madonna',
+        'birthLocation': 'Fort Myers, Florida',
+        'stance': 'Regular'
+    },
+    'jamie thomas':{
+        'age': 48,
+        'specialTrick':' 540 Flip',
+        'birthLocation': 'Palm Beach Gardens, Florida',
+        'stance': 'Regular'
     },
     'chad muska':{
         'age': 46,
-        'specialTrick':'Frontside Tailslide',
-        'birthLocation': 'Ohio',
+        'specialTrick':'360 Shove it Rewind',
+        'birthLocation': 'Lorain, Ohio',
         'stance': 'Regular'
     },
     'geoff rowley':{
         'age': 47,
-        'specialTrick': 'Half Flip Casper',
-        'birthLocation': 'Liverpool',
+        'specialTrick': 'Darkslide',
+        'birthLocation': 'Liverpool, England',
         'stance': 'Regular'
     },
     'create a skater':{
